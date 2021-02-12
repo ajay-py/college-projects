@@ -28,3 +28,88 @@ Breadboard
 LEDs
 Wires
 Resistors
+
+note- this project is for 4 way traffic signal.
+CODE:-
+Initializing the LED pins to the respective pins in Arduino Uno. 
+int r1 = 1;
+int y1 = 2;
+int g1 = 3;
+int r2 = 4;
+int y2 = 5;
+int g2 = 6;
+int r3 = 7;
+int y3 = 8;
+int g3 = 9;
+int r4 = 10;
+int y4 = 11;
+int g4 = 12;
+Then in the setup function, we declared all the pins as output so that we can control these with the Arduino.
+void setup()   
+ {   
+pinMode (r1, OUTPUT);     //signal 1
+pinMode (y1, OUTPUT);
+pinMode (g1, OUTPUT);
+pinMode (r2, OUTPUT);    //signal 2
+pinMode (y2, OUTPUT);
+pinMode (g2, OUTPUT);
+pinMode (r3, OUTPUT);   //signal 3
+pinMode (y3, OUTPUT);
+pinMode (g3, OUTPUT);
+pinMode (r4, OUTPUT);   //signal 4
+pinMode (y4, OUTPUT);
+pinMode (g4, OUTPUT);    
+ }
+In the loop function, we controlled the signal one by one to control the flow of traffic.
+void loop()  
+  {            // Making Green  LED at signal 1 and red LED's 		    at other signal HIGH
+digitalWrite(g1, HIGH);
+digitalWrite(r2, HIGH);
+digitalWrite(r3, HIGH);
+digitalWrite(r4, HIGH);
+delay(9000); // Making Green LED at signal 1 LOW and making 
+		yellow LED at signal 1 HIGH for 3 seconds
+digitalWrite(g1, LOW);
+digitalWrite(r2, LOW);
+digitalWrite(y1, HIGH);
+digitalWrite(y2, HIGH);
+delay(3000);  // Making Green  LED at signal 2 and red LED's at 			other signal HIGH
+digitalWrite(y1, LOW);
+digitalWrite(y2, LOW);
+digitalWrite(r1, HIGH);
+digitalWrite(g2, HIGH);
+digitalWrite(r3, HIGH);
+delay(9000); // Making Green LED at signal 2 LOW and making 
+		yellow LED at signal 2 HIGH for 3 seconds
+digitalWrite(g2, LOW);
+digitalWrite(r3, LOW);
+digitalWrite(y2, HIGH);
+digitalWrite(y3, HIGH);
+delay(3000); // Making Green  LED at signal 3 and red LED's at 			other signal HIGH
+digitalWrite(y2, LOW);
+digitalWrite(y3, LOW);
+digitalWrite(r2, HIGH);
+digitalWrite(g3, HIGH);
+digitalWrite(r4, HIGH);
+delay(9000); // Making Green LED at signal 3 LOW and making 
+		yellow LED at signal 3 HIGH for 3 seconds
+digitalWrite(g3, LOW);
+digitalWrite(r4, LOW);
+digitalWrite(y3, HIGH);
+digitalWrite(y4, HIGH);
+delay(3000); // Making Green  LED at signal 4 and red LED's at 			other signal HIGH
+digitalWrite(y3, LOW);
+digitalWrite(y4, LOW);
+digitalWrite(r3, HIGH);
+digitalWrite(g4, HIGH);
+delay(9000); // Making Green LED at signal 4 LOW and making 
+		yellow	 LED at signal 4 HIGH for 3 seconds
+digitalWrite(r3, LOW);
+digitalWrite(g4, LOW);
+digitalWrite(r1, LOW);
+digitalWrite(y1, HIGH);
+digitalWrite(y4, HIGH);
+delay(3000);
+digitalWrite(y1, LOW);
+digitalWrite(y4, LOW);  
+   } 
