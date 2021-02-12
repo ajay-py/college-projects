@@ -1,0 +1,30 @@
+PROJECT SYNOPSIS
+On
+Traffic lights controller using Arduino
+ABSTRACT: -
+The use of private vehicles is extremely common and as a result, the quantity of vehicles on the roads area unit exponentially increasing. 
+Roads with none direction or steering will lead in to traffic congestions and accidents.
+Traffic Lights or Traffic Signals area unit signalling devices that area unit accustomed management the flow of traffic. 
+Generally, they're positioned at junctions, intersections, ‘X’ roads, pedestrian crossings etc.
+The traffic lights can offer directions to the users (drivers and pedestrians) by displaying lights of normal colour. 
+The 3 colours utilized in traffic lights area unit Red, Yellow and green.
+The system should be accustomed management the traffic lights for swish and safe movement of traffic. 
+These management systems include electro mechanical controllers with mechanism mechanisms or trendy solid-state processed systems with simple setup and maintenance.
+In this project, associate degree Arduino based mostly traffic signal Controller system is meant. 
+it's a straightforward implementation of traffic lights system however is extended to a true time system with programmable timings, pedestrian lighting etc.
+
+
+
+
+
+
+Software Requirements: -
+Arduino IDE
+
+
+Hardware Requirements: -
+Arduino uno
+Breadboard 
+LEDs
+Wires
+Resistors
