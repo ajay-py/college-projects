@@ -1,0 +1,28 @@
+The Tanks game is a multiplayer game made using Unity engine.
+This game will cover implementation of real time graphics, image rendering, shooting animation, camera controlling, in game managers physics engine, sound effects and background music as well.
+In the end the complete game will be built for the PC.
+
+
+Game Controls
+
+How to Play:- 
+Since both the players is controlled using one keyboard the control keys are as follows:
+For Player 1(BLUE) : 
+W- Move Forward
+A- Move Right
+S- Move Backward
+D- Move Left
+Space Bar – To Fire
+
+For Player 2(RED):
+Up-Arrow – Move Forward
+Left -Arrow- Move Right
+Right-Arrow- Move Left
+Down-Arrow- Move Backward 
+Enter – To Fire
+
+
+
+references
+•	http://learn.unity.com/tanks-tutorial
+•	http://youtube.com/TANKS!-unity-tutorial
