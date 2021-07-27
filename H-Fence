@@ -1,0 +1,122 @@
+
+H-FENCE
+Horizontal fence
+
+
+
+
+Introduction:
+
+“Horizontal fence”
+
+It is a safety net that saves people from accidentally falling off from building.
+
+
+Rationale:
+
+      The Problem:-
+
+Falling off from building is second most cause of death by accident.
+No proper solution to this, only remedies and precautions available.
+The injuries vary from few fractures to fatal death.
+
+The solution we found:-
+
+A safety net across the building to save from falling.
+It will be activated when the sensors installed on the buildings will detect a person falling form terrace/ balcony/ window etc.
+When detected it will release the net/ mat placed at ceiling of ground floor.
+The net will catch the person before falling off to ground.
+
+Objectives:-
+
+To save a person accidentally falling off from high rise buildings.
+To reduce the number of the "Falls" cases.
+
+Research Methodology:-
+
+Globally, falls are a major public health problem. An estimated 646 000 fatal falls occur each year, making it the second leading cause of unintentional injury death, after road traffic injuries. Over 80% of fall-related fatalities occur in low- and middle-income countries, with regions of the Western Pacific and South East Asia accounting for 60% of these deaths. In all regions of the world, death rates are highest among adults over the age of 60 years.
+Though not fatal, approximately 37.3 million falls severe enough to require medical attention occur each year. Such falls are responsible for over 17 million DALYs (disability-adjusted life years) lost . The largest morbidity occurs in people aged 65 years or older, young adults aged 15-29 years and children aged 15 years or younger. 
+
+H-FENCE is a safety net to save a person falling from a building.
+The H-fence safety net will be connected to IOT.
+It will be installed on all sides of building and will open when the sensors placed on the buildings will detect a person in its environment.
+It will open the safety net of the particular side and save the person falling to ground.
+Falling off from heights is second most cause of accidental death in the world after the road accidents.
+
+
+
+Components:
+PIR Sensor
+Net
+Poles
+Dedicated Controller
+Power Supply
+
+
+
+
+Preliminary Work / Survey :-
+
+Our Physical visit to Fire Station , Hinjewadi phase 1, Pune.
+
+Meeting Sir Sunil Ingavle ,
+
+We discussed our project idea with him , he too shared some knowledge with us about rescue the person falling from heights . 
+Also he queried about challenges in detecting a person , birds and other objects in air.
+Which we sorted after by deciding to implement AI in the sensor to study the object that the sensor detects is human or something else.
+
+
+
+According to WHO :
+Falls are the second leading cause of accidental or unintentional injury deaths worldwide.
+Each year an estimated 646 000 individuals die from falls globally of which over 80% are in low- and middle-income countries.
+Adults older than 65 years of age suffer the greatest number of fatal falls.
+37.3 million falls that are severe enough to require medical attention occur each year.
+Prevention strategies should emphasize education, training, creating safer environments, prioritizing fall-related research and establishing effective policies to reduce risk.
+
+Other risk factors include:
+occupations at elevated heights or other hazardous working conditions; 
+alcohol or substance use; 
+socioeconomic factors including poverty, overcrowded housing, sole parenthood, young maternal age; 
+underlying medical conditions, such as neurological, cardiac or other disabling conditions;
+side effects of medication, physical inactivity and loss of balance, particularly among older people; 
+poor mobility, cognition, and vision, particularly among those living in an institution, such as a nursing home or chronic care facility; 
+unsafe environments, particularly for those with poor balance and limited vision.
+
+
+Expected Outcomes :-
+
+We are creating this system with a vision of saving a person accidently falling off from a building.
+We believe that precaution is better than cure. We expect that our proposed system will act as a major outcome in saving a person’s life.
+
+
+Benifits to society:-
+
+It will reduce the chances of falling off from the high-rise structures and buildings. Our proposed system will increase the employability among the youth. It will also add an additional feature for the building’s safety.
+
+Future Scope:-
+
+To install the H-Fence in all the high rise, sky scrapers, and the buildings with the high risk of falling, around the globe.
+
+
+SWOC Analysis / Limitations:-
+
+Strength  -
+only solution to save a person accidently falling from building.
+Weakness  -  
+to be accepted by the builders.
+Opportunities  -  
+Since it is new to market, it has the first move advantage 
+As well as to grab the majority of market size.
+Challenges  -  
+the complex structure of few buildings.
+
+
+
+References:-
+
+Who website.
+Ncrb website.
+Wikipedia.
+
+
